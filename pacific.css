@@ -1,0 +1,112 @@
+body {
+	background-color: #00569f;
+	background-image:  url("ptrbackground.jpg");
+	background-repeat: repeat-x;
+	
+}
+
+#wrapper {
+	background-color: #00569f;
+	width: 80%;
+	min-width: 600px;
+	margin: 0 auto; 
+}
+
+nav {
+	height: 100%;
+	width: 170px;
+	float: left;
+	padding-left: 20px;
+	padding-top: 20px;
+	position: sticky;
+	text-align: left;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: left;
+}
+
+
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+header {
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	color: white;
+	background-color: black;
+}
+
+#content {
+	background-color: white;
+	overflow: auto;
+	padding: 0 20px 20px 20px;
+	font-family:sans-serif ;
+
+}
+
+#content ul {
+	list-style-image: url("marker.gif");
+	list-style-position: inside;
+	margin-left: 20px; 
+}
+
+.resort {
+	color: #3399CC;
+	font-weight: bold;
+	font-size: medium;
+}
+
+p {
+	display: inline;
+}
+
+#content img {
+	float: left;
+	margin-right: 20px;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	background-color: white;
+	margin-left: 190px;
+	font-style: italic;
+	font-size: small;
+	padding: 20px;
+}
